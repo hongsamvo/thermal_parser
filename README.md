@@ -1,9 +1,9 @@
 # FLIR/DJI IR Camera Data Parser, Python Version
 Parser infrared camera data as `NumPy` data.
-*(My note) In this repo I fix some error due to C library path, I used DJI SDK `thermal_parser/plugins/dji_thermal_sdk_v1.4_20220929` instead of
+* (My note) In this repo I fix some error due to C library path, I used DJI SDK `thermal_parser/plugins/dji_thermal_sdk_v1.4_20220929` instead of
 `dji_thermal_sdk_v1.5_20240507` because the lack of .so files.
 * I try newest version `dji_thermal_sdk_v1.6_20240927` but got some error. So I used old version from 2022.
-* We are evaluate the results.
+* We are evaluating the results.
 ![image](./images/image.jpg)
 
 ## Usage
